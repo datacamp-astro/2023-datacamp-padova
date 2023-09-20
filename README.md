@@ -18,3 +18,18 @@ DAY 5 – Final discussion
 
 # Working with this repository
 This repository will host all the material for the schools, including lecture notes, basic python notebook tutorials and other relevant materials. All instructions to set up and use this page will be given in close distance from the school start. 
+
+
+## Creating the environment to run the tutorials
+
+Use mamba to create the environment for the school. The environment contains all the `agnpy` and `Gammapy` dependencies.
+
+```shell
+mamba env create -f environment.yml
+```
+
+to run the notebooks remember to activate the environment
+
+```shell
+mamba activate datacamp-padova
+```
