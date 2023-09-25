@@ -9,3 +9,24 @@ In the framework of this workshop we will use data in the so-called Data Level 3
 
 ## Requirements
 * Basic packages: `astropy, numpy, scipy, matplotlib`
+
+
+## Set up
+
+1) Open the "Terminal" on your PC
+
+2) type and run:
+   `conda activate datacamp-padova`
+   or
+   `mamba activate datacamp-padova`
+
+3) Download the github repo of the school with `git clone git@github.com:datacamp-astro/2023-datacamp-padova.git`
+4) Download the dataset with `cd  2023-datacamp-padova` and then  `gammapy download datasets`
+5) Let's set the variable `GAMMAPY_DATA`.
+   
+   Copy the output of `pwd` (You should get something like /blabla/blabla/2023-datacamp-padova) and paste it inside
+ the  `~/.bashrc` in a new line:
+
+`export GAMMAPY_DATA=/blabla/blabla/2023-datacamp-padova/gammapy-datasets`
+
+6) Close the terminal and repeat poin 1 and 2. Finally you can launch the notebook with `jupyter-notebook &` or `jupyter-lab &` 
