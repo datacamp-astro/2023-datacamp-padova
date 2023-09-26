@@ -18,7 +18,7 @@ In the framework of this workshop we will use data in the so-called Data Level 3
 2) type and run:
    `conda activate datacamp-padova`
    or
-   `mamba activate datacamp-padova`
+   `micromamba activate datacamp-padova`
 
 3) Download the github repo of the school with `git clone git@github.com:datacamp-astro/2023-datacamp-padova.git`
 4) Download the dataset with `cd  2023-datacamp-padova` and then  `gammapy download datasets`
